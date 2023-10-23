@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+! /usr/bin/env#node
 
 var util = require('util');
 var Stream = require('./gif').Stream;
@@ -99,3 +99,4 @@ process.argv.forEach(function (arg, i) { // Not an array?!
     parseGIF(stream, handler);
   }
 });
+ 
